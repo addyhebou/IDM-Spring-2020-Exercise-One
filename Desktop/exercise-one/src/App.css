@@ -47,20 +47,24 @@
   background-position: center;
   background-size: cover;
   padding: 100px;
-  text-align: center;
-
 }
 
 .articleHeadWrapper{
   margin: 0 auto;
   max-width: 1080px;
+  padding-left: 20%;
   width: 100%;
 }
 
+.articleHeadWrapper h1{
+  font-size: 50px;
+  font-weight: 400;
+}
 
 .articleContentWrapper{
   margin: 0 auto;
   max-width: 640px;
+  padding-top: 60px;
 }
 
 .articleContent p {
