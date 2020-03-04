@@ -1,0 +1,45 @@
+
+.Home{
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+.Home h1{
+  text-align: center;
+}
+
+.OtherTemperatures{
+
+}
+
+.SiteWrapper{
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 0 25px;
+  width: 100%;
+}
+
+.WeatherInfo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.WeatherInfo_Image{
+  flex-basis: 50%;
+}
+
+.WeatherInfo_Data{
+  flex-basis: 50%;
+}
+
+.WeatherInfo_Data .CurrentTemperature .CurrentTemperatureTemp{
+  font-size: 96px;
+  line-height: 48px;
+  margin: 0;
+}
+.WeatherInfo_Data .CurrentTemperature .CurrentTemperatureLabel{
+  font-weight: bolder;
+  margin: 0;
+  text-transform: uppercase;
+}
