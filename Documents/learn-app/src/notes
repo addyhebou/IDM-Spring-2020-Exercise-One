@@ -1,0 +1,8 @@
+single source of truth - the state of your whole application stored in an object tree to check
+single state tree makes it easier to debug or inspect an application; enables you to persits you ao's state
+
+redux is read-only
+
+chhanges are made w pure function
+
+Pillars of Redux
