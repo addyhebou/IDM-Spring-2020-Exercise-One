@@ -1,0 +1,201 @@
+*{
+    margin:0;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+@keyframes FadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    animation: FadeIn 2s;
+    background-color: black;
+}
+header{
+    padding: 30px;
+}
+
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.title{
+    font-family: 'Lora', serif;
+    font-size: 80px;
+    float: right;
+    color: white;
+}
+
+li{
+    color:white;
+}
+
+.openingBanner{
+    position: relative;
+    /* height: 500px; */
+    /* background-color: lightskyblue; */
+}
+
+.openingBanner img{
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+.openingBanner img:hover{
+    opacity:1;
+}
+.reasonBanner{
+    position: relative;
+    /* height: 500px; */
+    /* background-color: lightskyblue; */
+}
+
+.linktoPic{
+    opacity: 1;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.linktoPic:hover{
+    opacity: 0.5;
+}
+
+.linktoPic:hover ~ .picButton{
+    display: block;
+}
+
+.picButton{
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 35%;
+}
+.sibling-hover{
+    cursor: pointer;
+}
+
+.sibling-highlight{
+    display: none;
+}
+.sibling-hover:hover ~ .sibling-highlight {
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+.downloadLink a{
+    color: white;
+}
+
+.openingBannerText{
+    position: absolute;
+    top: 85%;
+    left: 70%;
+    color: white;
+}
+.reasonBannerText{
+    top: 70%;
+    left: 70%;
+    font-family: 'Lora', serif;
+    font-size: 140px;
+    padding: 130px;
+    color: white;
+    /* font-family: 'Poppins', sans-serif; */
+}
+.reasonText{
+    top: 70%;
+    left: 70%;
+    font-family: 'Lora', serif;
+    font-size: 70px;
+    color: white;
+}
+
+.headerLinks{
+    color: rgb(73, 192, 231);
+    text-align: center;
+    transition: all 0.5s;
+    font-size: 20px;
+    padding-top:30px;
+}
+
+.headerLinks:hover{
+    color:white;
+}
+
+.caption{
+    font-size: 25px;
+    padding: 30px;
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+h1{
+    color:white;
+}
+
+button{
+    width: 350px;
+    height: 50px;
+    border: black 10px;
+    background-color: #ffd271;
+    color: black;
+    transition: all 0.5s;
+    font-size: 20px;
+    /* padding: 30px; */
+}
+button:hover{
+    color:white;
+    transform: scale(1.1);
+}
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+/*
+    Color 1: f65c78
+    Color 2: ffd271
+    Color 3: fff3af
+    Color 4: c3f584
+*/
+
+#ActingCredits{padding-bottom:15px;}
+
+.row{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+div.scrollmenu img {
+    display: inline-block;
+    text-decoration: none;
+    width: 20%;
+    transition: all 0.5s;
+}
+
+div.scrollmenu img:hover{
+    transform: scale(1.1);
+}
+
+h1{
+    color: white;
+}
+footer{padding-top: 40px; }
+footer div{color: white; text-align: center;}
+footer img{width: 25px; padding: 10px; transition: all 0.5s;}
+footer img:hover{opacity: 0.5;}
+.content{ text-align: center; border-top: 1px solid lightgrey; padding-top: 30px;}
+#thumbs{width: 60%;}
+
+
+
