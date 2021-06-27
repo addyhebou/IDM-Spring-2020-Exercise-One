@@ -1,0 +1,26 @@
+.btn {
+    font-size: 1.5em;
+    width: 200px;
+    height: 70px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #85FFC7;
+    font-size: 2.3em;
+    box-shadow: 0px 6px #2c3e50;
+    background-color: #34495e;
+    margin: auto;
+    margin-top: 20px;
+    background: #39393A;
+    border: 5px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 99;
+}
+
+.btn:active {
+    border: none;
+    position: relative;
+    top: 3px;
+    box-shadow: 0px 0px #2c3e50;
+    background-color: #2c3e50;
+}

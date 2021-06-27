@@ -1,0 +1,69 @@
+.App{
+  text-align: center;
+  justify-content: center;
+  /* padding: 20px; */
+}
+
+.background {
+  width: auto;
+  height: auto;
+  background-color: #E6E6E6;
+  margin: 22px;
+  padding: 150px 0px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardRow{
+  margin: 3em;
+}
+
+.Header{
+  width: auto;
+  height: 97px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #E6E6E6;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  background: #FF8552;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.middle , .behind, .top {
+  height: 12em;
+  width: 20em;
+  position: relative;
+  background: coral;
+  border: 5px solid #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.middle{
+  top: -175px;
+  z-index: 1;
+  opacity: 75%;
+}
+
+.cardRow{
+  height: 15em;
+}
+
+.behind{
+  top: 5px;
+  z-index: 0;
+  opacity: 50%;
+}
+
+.top {
+  /* background: none; */
+  top: -350px;
+  z-index: 2;
+}

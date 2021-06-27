@@ -1,0 +1,23 @@
+{
+    "cards" : [
+        {"id": 1, "front": "Beauty", "back": "I am beautiful"},
+        {"id": 2, "front": "Current Life", "back": "My life is amazing"},
+        {"id": 3, "front": "Abilities", "back": "I have unlimited power"},
+        {"id": 4, "front": "Abilities", "back": "I believe in myself and my power"},
+        {"id": 5, "front": "Self-Image", "back": "Others love me for who I am"},
+        {"id": 6, "front": "Self-Image", "back": "People treat me with respect"},
+        {"id": 7, "front": "Goals", "back": "I deserve everything I desire"},
+        {"id": 8, "front": "Current Life", "back": "My life is rewarding and filled with joy"},
+        {"id": 9, "front": "Current Life", "back": "My life is full of adventure and incredible experiences"},
+        {"id": 10, "front": "Self-Worth", "back": "I grow and become a better version of myself every day"},
+        {"id": 11, "front": "Self-Worth", "back": "I learn and grow every day"},
+        {"id": 12, "front": "Self-Image", "back": "Others look up to me"},
+        {"id": 13, "front": "Self-Image", "back": "I am confident and intelligent"},
+        {"id": 14, "front": "Self-Worth", "back": "I give praise to myself and others naturally and effortlessly"},
+        {"id": 15, "front": "Self-Worth", "back": "I naturally feel good about myself"},
+        {"id": 16, "front": "Self-Worth", "back": "I forgive myself"},
+        {"id": 17, "front": "Beauty", "back": "I am at peace with my appearance"},
+        {"id": 18, "front": "Beauty", "back": "Hating my body won't make me healthier"},
+        {"id": 19, "front": "Beauty", "back": "My body is a gift"}
+    ]
+}
